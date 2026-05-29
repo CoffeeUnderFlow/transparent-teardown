@@ -1,4 +1,4 @@
-# 🩻 Transparent Teardown UI
+# 🧊 Transparent Teardown UI
 
 > **A zero-dependency UI effect that exposes your website's raw source code as a dynamic, glowing background.**
 
