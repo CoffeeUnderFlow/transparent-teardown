@@ -32,13 +32,13 @@ const themeBtn = document.getElementById('theme-toggle');
 themeBtn.addEventListener('click', () => {
     const currentTheme = document.body.getAttribute('data-theme');
     
-    if (currentTheme === 'dark') {
-        // Switch to Light
+    if (currentTheme === 'light') {
+        // Switch back to Dark Mode (Default)
         document.body.removeAttribute('data-theme');
-        themeBtn.innerText = 'Dark Mode';
-    } else {
-        // Switch to Dark
-        document.body.setAttribute('data-theme', 'dark');
         themeBtn.innerText = 'Light Mode';
+    } else {
+        // Switch to Light Mode
+        document.body.setAttribute('data-theme', 'light');
+        themeBtn.innerText = 'Dark Mode';
     }
 });
