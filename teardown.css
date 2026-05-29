@@ -1,23 +1,5 @@
-/* --- 1. LIGHT MODE VARIABLES (DEFAULT) --- */
+/* --- 1. DARK MODE VARIABLES (DEFAULT) --- */
 :root {
-    --bg-main: #f4f5f7;
-    --text-hero: #111111;
-    --text-desc: #4b5563;
-    --grid-color: rgba(0, 0, 0, 0.04);
-    --code-base: #586069;
-    --readability-glow: rgba(255, 255, 255, 0.95);
-    
-    /* Light Mode Syntax Colors */
-    --syn-comment: #9ca3af;
-    --syn-string: #d73a49;
-    --syn-tag: #22863a;
-    --syn-keyword: #6f42c1;
-    --syn-function: #005cc5;
-    --syn-attr: #e36209;
-}
-
-/* --- 2. DARK MODE VARIABLES --- */
-[data-theme="dark"] {
     --bg-main: #0a0a0a;
     --text-hero: #ffffff;
     --text-desc: #a1a1aa;
@@ -32,6 +14,24 @@
     --syn-keyword: #c678dd;
     --syn-function: #e5c07b;
     --syn-attr: #d19a66;
+}
+
+/* --- 2. LIGHT MODE VARIABLES --- */
+[data-theme="light"] {
+    --bg-main: #f4f5f7;
+    --text-hero: #111111;
+    --text-desc: #4b5563;
+    --grid-color: rgba(0, 0, 0, 0.04);
+    --code-base: #586069;
+    --readability-glow: rgba(255, 255, 255, 0.95);
+    
+    /* Light Mode Syntax Colors */
+    --syn-comment: #9ca3af;
+    --syn-string: #d73a49;
+    --syn-tag: #22863a;
+    --syn-keyword: #6f42c1;
+    --syn-function: #005cc5;
+    --syn-attr: #e36209;
 }
 
 /* --- 3. BASE STYLES & SMOOTH TRANSITIONS --- */
