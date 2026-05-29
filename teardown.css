@@ -52,7 +52,6 @@ body {
         linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
     background-size: 30px 30px;
     
-    /* Smoothly fades colors when the button is clicked */
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -97,9 +96,8 @@ h1 {
     font-family: 'Bodoni Moda', serif;
     font-size: 3.8rem; 
     margin: 0 0 1rem 0;
-    line-height: 1.1;
+    line-height: 1.4; 
     color: var(--text-hero);
-    /* Glow dynamically shifts from white (Light Mode) to black (Dark Mode) */
     text-shadow: 0 0 40px var(--readability-glow), 0 0 20px var(--readability-glow), 0 0 10px var(--readability-glow);
     transition: color 0.5s ease, text-shadow 0.5s ease;
 }
